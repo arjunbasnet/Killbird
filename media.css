@@ -1,0 +1,92 @@
+#playground{
+    width: 800px;
+    height: 500px;
+    max-width:800px;
+    max-height:500px;
+    margin-left: auto;
+    margin-right:auto;
+    z-index: 200;
+    background-image: url("bgnew.png");
+    border: 3px solid black;
+    cursor:crosshair;
+    overflow: hidden;
+}
+#forground{
+    width: 800px;
+    height: 500px;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    background: green;
+    border: 3px solid black;
+    overflow: hidden;
+    z-index: 25;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+.duck_right1, .duck_right2,.duck_right3,.duck_right4,duck_right5,.duck_right6{
+    width: 90px;
+    height: 78px;
+    position: relative;
+    z-index: 100;
+    margin-left: 800px;
+    margin-top: 20px;
+    background-image: url("duckrignew.png");
+}
+.duck_left1,.duck_left2,.duck_left3,.duck_left4,.duck_left5,.duck_left6 {
+    width: 90px;
+    height: 78px;
+    margin-top: 15px;
+    left:-120px;
+    z-index: 100;
+    position:relative;
+    background-image: url("ducklefnew.png");
+}
+#play{
+    width: 60px;
+    color: red;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 2em;
+    z-index: 90;
+    margin-left: 340px;
+    margin-right: auto;
+    cursor: pointer;
+    padding: 5px;
+}
+#score{
+    width:80px;
+    background-color: red;
+    color: white;
+    z-index: 200;
+    font-size: 1.3em;
+    border: 2px solid black;
+    padding: 5px;
+}
+#s{
+    margin-left: 750px;
+    color: red;
+    font-size: 1.3em;
+}
+#finalscore{
+    width: 350px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 2em;
+    color: red;
+    padding: 5px;
+}
+.cld{width: 200px;height: 120px;position : relative;margin-right: 200px;}
+#clouds{
+z-index: 50;
+
+height: 120px;
+float: top;
+position: absolute;
+width:800px;
+}
